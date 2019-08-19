@@ -1,0 +1,76 @@
+.remark {
+    font-size:80%;
+    font-weight: 700;
+    color: #3377ff;
+}
+.center{
+    text-align: center;
+}
+
+p.title1 {
+    font-size: 140%;
+    font-weight : 800;
+    color: #1F4499;
+    text-align: center;
+}
+
+hr.mhr {
+    border: 1px dashed #2E9FCC;
+}
+
+table {
+    border:solid #999;
+    border-width:1px 0px 0px 1px;
+    border-spacing:0;
+    font-family: "Microsoft YaHei", Sans-Serif;
+    color: #111111;
+    line-height: 1.5em;
+}
+
+td {
+    border:solid #999;
+    border-width:0px 1px 1px 0px;
+    border-spacing:0;
+    padding: 5px;
+}
+
+tr:nth-child(2n+1) {
+    background: rgba(234, 242, 250, 0.5);
+    font-size: 90%;
+}
+
+tr:nth-child(2n) {
+    background: rgba(219, 229, 248, 0.5);
+    font-size: 90%;
+}
+
+tr:nth-child(1) {
+    font-size: 100%;
+    font-weight : 700;
+    background-color: rgba(191, 219, 255, 0.9);
+}
+
+a {
+    text-decoration:none;
+    color:#3377ff;
+}
+
+.noinner td:not(:last-child) {
+    border-right-width:0;
+}
+
+.noinner td:not(:first-child) {
+    border-left-width:0;
+}
+
+tr.nobottom td {
+    border-bottom-width:0;
+}
+
+tr.notop td {
+    border-top-width:0;
+}
+
+td.withbottom {
+    border-bottom-width:thin !important;
+}
